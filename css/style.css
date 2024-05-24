@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+body{font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"}
+.banner{width: 100%;min-height: 500px;height: auto}
+.img-100{width: 100%;height: auto}
+.menu{width: 100%;height: 500px;text-align: center;line-height: 60px}
+.container{width: 100%;margin: 0}
+.menu a{text-decoration: none;padding: 15px;color: gray}
+
+.header{width: 100%;height: 60px;background-color: burlywood;line-height: 60px}
+.con{padding: 15px}
+.menu a:hover{background-color: gray;color: black}
+.w-30{width: 30%;min-height: 200px;padding: 15px}
+.w-70{width: 70%;min-height: 200px;padding: 15px}
+.text-do{color:black;font-size: 20px}
+.fromy-control{padding:8px;margin-bottom:10px;width:100%}
+.vien{border: 3px solid gray;min-height: 200px;border-radius: 8px;padding: 10px;margin-bottom: 15px}
+.thanh-icon{width: 100%;height: 50px;line-height: 50px}
+.thanh-icon i:hover{color: firebrick}
+.navbar .navbar-nav .nav-item .nav-link:hover{color:firebrick}
+.navbar .navbar-nav .nav-item .dropdown-menu{ background-color: hotpink;padding-bottom: 0;padding-top: 0}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{color: white}
+.navbar .navbar-nav .nav-item .dropdown-menu li{boder-bottom: 1px solid white;}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{background-color: pink}
+.img-small{width: 100%;height: auto}
+#gia-banh a{text-decoration:none;  color: black}
+#gia-banh a:hover{ color: brown}
+#khac a{text-decoration: none;color: black}
+#khac a:hover{color: brown}
+#khac .noi-dung{text-align:center;padding: 15px;display: flex}
+#khac .noi-dung img{width:50%}
